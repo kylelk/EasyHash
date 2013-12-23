@@ -37,7 +37,7 @@
             <TextView
                 android:id="@+id/md5"
                 android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:gravity="center"
                 android:text="md5" />
         </RelativeLayout>
@@ -54,7 +54,7 @@
             <TextView
                 android:id="@+id/sha1"
                 android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:gravity="center"
                 android:text="sha1" />
         </RelativeLayout>
@@ -71,7 +71,7 @@
             <TextView
                 android:id="@+id/sha256"
                 android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:gravity="center"
                 android:text="sha256" />
         </RelativeLayout>
@@ -88,9 +88,10 @@
             <TextView
                 android:id="@+id/sha512"
                 android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"          
+                android:layout_height="match_parent"
+                android:gravity="center"
                 android:text="sha512" />
+
         </RelativeLayout>
     </LinearLayout>
 
