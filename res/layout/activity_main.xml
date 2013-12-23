@@ -20,15 +20,13 @@
         <requestFocus />
     </EditText>
 
-    
-
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:layout_below="@id/input"
         android:layout_weight=".25"
         android:orientation="vertical" >
-
+		
         <RelativeLayout
             android:id="@+id/rel_1"
             android:layout_width="fill_parent"
@@ -43,7 +41,9 @@
                 android:gravity="center"
                 android:text="md5" />
         </RelativeLayout>
-
+        
+		<View style="@style/Divider"/>
+		
         <RelativeLayout
             android:id="@+id/rel_2"
             android:layout_width="fill_parent"
@@ -58,7 +58,9 @@
                 android:gravity="center"
                 android:text="sha1" />
         </RelativeLayout>
-
+        
+		<View style="@style/Divider"/>
+		
         <RelativeLayout
             android:id="@+id/rel_3"
             android:layout_width="fill_parent"
@@ -73,7 +75,9 @@
                 android:gravity="center"
                 android:text="sha256" />
         </RelativeLayout>
-
+        
+		<View style="@style/Divider"/>
+		
         <RelativeLayout
             android:id="@+id/rel_2"
             android:layout_width="fill_parent"
