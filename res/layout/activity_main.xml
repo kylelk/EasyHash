@@ -39,7 +39,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
-                android:text="md5" />
+                android:text="MD5" />
         </RelativeLayout>
         
 		<View style="@style/Divider"/>
@@ -56,7 +56,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
-                android:text="sha1" />
+                android:text="SHA-1" />
         </RelativeLayout>
         
 		<View style="@style/Divider"/>
@@ -73,7 +73,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
-                android:text="sha256" />
+                android:text="SHA-256" />
         </RelativeLayout>
         
 		<View style="@style/Divider"/>
@@ -90,7 +90,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
-                android:text="sha512" />
+                android:text="SHA-512" />
 
         </RelativeLayout>
     </LinearLayout>
